@@ -1,0 +1,16 @@
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.exe
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.deps.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.runtimeconfig.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.dll
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\ref\tinhphuongtrinh.dll
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\tinhphuongtrinh.pdb
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.csproj.AssemblyReference.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.dll
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\ref\tinhphuongtrinh.dll
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.pdb
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\tinhphuongtrinh.genruntimeconfig.cache

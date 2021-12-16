@@ -1,0 +1,14 @@
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.exe
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.deps.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.runtimeconfig.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.dll
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\cacPhepThu.pdb
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.csproj.AssemblyReference.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.dll
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.pdb
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\cacPhepThu.genruntimeconfig.cache

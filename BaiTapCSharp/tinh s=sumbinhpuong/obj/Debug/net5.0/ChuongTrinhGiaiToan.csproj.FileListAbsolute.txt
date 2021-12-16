@@ -1,0 +1,16 @@
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.exe
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.deps.json
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.runtimeconfig.json
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.dll
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ref\ChuongTrinhGiaiToan.dll
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\bin\Debug\net5.0\ChuongTrinhGiaiToan.pdb
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.dll
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ref\ChuongTrinhGiaiToan.dll
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.pdb
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.genruntimeconfig.cache
+D:\lập trình c#\hoc c shap\tinh s=sumbinhpuong\obj\Debug\net5.0\ChuongTrinhGiaiToan.csproj.AssemblyReference.cache

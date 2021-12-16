@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BaiTapTrenKteam</id>
+    <version>1.0.0</version>
+    <authors>BaiTapTrenKteam</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\lethanhtam\lập trình c#\hoc c shap\BaiTapTrenKteam\bin\Debug\netcoreapp3.1\BaiTapTrenKteam.runtimeconfig.json" target="lib\netcoreapp3.1\BaiTapTrenKteam.runtimeconfig.json" />
+    <file src="C:\Users\lethanhtam\lập trình c#\hoc c shap\BaiTapTrenKteam\bin\Debug\netcoreapp3.1\BaiTapTrenKteam.dll" target="lib\netcoreapp3.1\BaiTapTrenKteam.dll" />
+  </files>
+</package>

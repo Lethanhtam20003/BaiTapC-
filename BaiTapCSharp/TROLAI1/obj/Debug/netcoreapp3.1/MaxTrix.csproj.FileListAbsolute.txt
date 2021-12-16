@@ -1,0 +1,14 @@
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.exe
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.deps.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.runtimeconfig.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.dll
+D:\lập trình c#\hoc c shap\TROLAI1\bin\Debug\netcoreapp3.1\MaxTrix.pdb
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.csproj.AssemblyReference.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.dll
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.pdb
+D:\lập trình c#\hoc c shap\TROLAI1\obj\Debug\netcoreapp3.1\MaxTrix.genruntimeconfig.cache

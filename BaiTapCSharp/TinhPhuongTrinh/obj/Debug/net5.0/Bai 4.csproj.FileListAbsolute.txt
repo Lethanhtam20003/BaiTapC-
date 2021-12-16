@@ -1,0 +1,16 @@
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.exe
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.deps.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.runtimeconfig.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.dll
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\ref\Bai 4.dll
+D:\lập trình c#\hoc c shap\Bai 4\bin\Debug\net5.0\Bai 4.pdb
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.csproj.AssemblyReference.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.dll
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\ref\Bai 4.dll
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.pdb
+D:\lập trình c#\hoc c shap\Bai 4\obj\Debug\net5.0\Bai 4.genruntimeconfig.cache

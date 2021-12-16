@@ -1,0 +1,14 @@
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.csproj.AssemblyReference.cache
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.GeneratedMSBuildEditorConfig.editorconfig
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.AssemblyInfoInputs.cache
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.AssemblyInfo.cs
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.csproj.CoreCompileInputs.cache
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.exe
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.deps.json
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.runtimeconfig.json
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.runtimeconfig.dev.json
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.dll
+D:\lập trình c#\hoc c shap\ConsoleApp1\bin\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.pdb
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.dll
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.pdb
+D:\lập trình c#\hoc c shap\ConsoleApp1\obj\Debug\netcoreapp3.1\yNghiaCauLenhTrongCShap.genruntimeconfig.cache
