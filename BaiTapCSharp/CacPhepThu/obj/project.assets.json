@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\CacPhepThu\\MatrixProgram.csproj",
+      "projectUniqueName": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\CacPhepThu\\MatrixProgram.csproj",
       "projectName": "MatrixProgram",
-      "projectPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\CacPhepThu\\MatrixProgram.csproj",
+      "projectPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\CacPhepThu\\MatrixProgram.csproj",
       "packagesPath": "C:\\Users\\lethanhtam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\CacPhepThu\\obj\\",
+      "outputPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\CacPhepThu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lethanhtam\\AppData\\Roaming\\NuGet\\NuGet.Config",

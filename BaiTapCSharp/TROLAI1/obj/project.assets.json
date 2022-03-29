@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\TROLAI1\\TestFuntion.csproj",
+      "projectUniqueName": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\TROLAI1\\TestFuntion.csproj",
       "projectName": "TestFuntion",
-      "projectPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\TROLAI1\\TestFuntion.csproj",
+      "projectPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\TROLAI1\\TestFuntion.csproj",
       "packagesPath": "C:\\Users\\lethanhtam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\TROLAI1\\obj\\",
+      "outputPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\TROLAI1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lethanhtam\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\Method\\Method.csproj": {}
+    "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\Method\\Method.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\Method\\Method.csproj": {
+    "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\Method\\Method.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\Method\\Method.csproj",
+        "projectUniqueName": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\Method\\Method.csproj",
         "projectName": "Method",
-        "projectPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\Method\\Method.csproj",
+        "projectPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\Method\\Method.csproj",
         "packagesPath": "C:\\Users\\lethanhtam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\Method\\obj\\",
+        "outputPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\Method\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lethanhtam\\AppData\\Roaming\\NuGet\\NuGet.Config",

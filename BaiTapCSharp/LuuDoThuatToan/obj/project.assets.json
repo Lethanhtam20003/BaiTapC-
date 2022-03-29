@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\LuuDoThuatToan\\LuuDoThuatToan.csproj",
+      "projectUniqueName": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\LuuDoThuatToan\\LuuDoThuatToan.csproj",
       "projectName": "LuuDoThuatToan",
-      "projectPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\LuuDoThuatToan\\LuuDoThuatToan.csproj",
+      "projectPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\LuuDoThuatToan\\LuuDoThuatToan.csproj",
       "packagesPath": "C:\\Users\\lethanhtam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lethanhtam\\lập trình c#\\hoc c shap\\LuuDoThuatToan\\obj\\",
+      "outputPath": "D:\\GitHub\\BaiTapC-\\BaiTapCSharp\\LuuDoThuatToan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lethanhtam\\AppData\\Roaming\\NuGet\\NuGet.Config",
