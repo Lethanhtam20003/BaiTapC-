@@ -1,5 +1,0 @@
-D:\lập trình c#\hoc c shap\TONG-HOP-LY-THUYET-CO-BAN\obj\Debug\net5.0\TONG-HOP-LY-THUYET-CO-BAN.csproj.AssemblyReference.cache
-D:\lập trình c#\hoc c shap\TONG-HOP-LY-THUYET-CO-BAN\obj\Debug\net5.0\TONG-HOP-LY-THUYET-CO-BAN.GeneratedMSBuildEditorConfig.editorconfig
-D:\lập trình c#\hoc c shap\TONG-HOP-LY-THUYET-CO-BAN\obj\Debug\net5.0\TONG-HOP-LY-THUYET-CO-BAN.AssemblyInfoInputs.cache
-D:\lập trình c#\hoc c shap\TONG-HOP-LY-THUYET-CO-BAN\obj\Debug\net5.0\TONG-HOP-LY-THUYET-CO-BAN.AssemblyInfo.cs
-D:\lập trình c#\hoc c shap\TONG-HOP-LY-THUYET-CO-BAN\obj\Debug\net5.0\TONG-HOP-LY-THUYET-CO-BAN.csproj.CoreCompileInputs.cache
