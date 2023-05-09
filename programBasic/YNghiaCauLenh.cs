@@ -3,6 +3,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 namespace programBasic
@@ -24,7 +26,7 @@ namespace programBasic
             ///  /// </summary>
             static int i = 5;
             // hàm main là hàm dc tạo săn và là hàm chính của chương trình  
-            static void Main(string[] args)
+            public void study()
             {
 
                 #region Các câu lệnh nhập xuât
@@ -795,7 +797,7 @@ namespace programBasic
 
         class nangcao
         {
-            static void Main(string[] args1)
+            public void study()
             {
                 #region Tổng quan về Collection trong C#
 
@@ -807,7 +809,7 @@ namespace programBasic
         //lập trình hướng đối tượng
         class ObjectOrientedProgremming
         {
-            static void Main(string[] args1)
+            public void study()
             {
                 #region Tổng quan về lập trình hướng đối tượng
                 //            Lập trình hướng đối tượng là gì?
@@ -876,38 +878,80 @@ namespace programBasic
                 //Sự xuất hiện của 2 khái niệm mới là lớp và đối tượng chính là đặc trưng của phương pháp lập trình hướng đối tượng. Nó đã giải quyết được các khuyết điểm của phương pháp lập trình hướng cấu trúc để lại. Ngoài ra 2 khái niệm này đã giúp biểu diễn tốt hơn thế giới thực trên máy tính.
 
                 //Các đặc điểm của lập trình hướng đối tượng
-                //Lập trình hướng đối tượng có 4 đặc điểm chính:
+                //  + Lập trình hướng đối tượng có 4 đặc điểm chính:
 
-                //Tính đóng gói:
+                //       - Tính đóng gói:
 
-                // Các dữ liệu và phương thức có liên quan với nhau được đóng gói thành các lớp để tiện cho việc quản lý và sử dụng.
-                // Ngoài ra, đóng gói còn để che giấu một số thông tin và chi tiết cài đặt nội bộ để bên ngoài không thể nhìn thấy.
-                //Tính trừu tượng: Khi viết chương trình theo phong cách hướng đối tượng, việc thiết kế các đối tượng ta cần rút tỉa ra những đặc trưng chung của chúng rồi trừu tượng thành các interface (khái niệm interface sẽ được trình bày trong bài INTERFACE TRONG C#) và thiết kế xem chúng sẽ tương tác với nhau như thế nào.
+                //             * Các dữ liệu và phương thức có liên quan với nhau được đóng gói thành các lớp để tiện cho việc quản lý và sử dụng.
+                //             * Ngoài ra, đóng gói còn để che giấu một số thông tin và chi tiết cài đặt nội bộ để bên ngoài không thể nhìn thấy.
 
-                //Tính kế thừa: Lớp cha có thể chia sẽ dữ liệu và phương thức cho các lớp con, các lớp con khỏi phải định nghĩa lại, giúp chương trình ngắn gọn.Chi tiết sẽ được trình bày trong bài TÍNH KẾ THỪA TRONG C#.
+                //       - Tính trừu tượng: Khi viết chương trình theo phong cách hướng đối tượng, việc thiết kế các đối tượng ta cần rút tỉa ra những đặc trưng chung của chúng rồi trừu tượng thành các interface (khái niệm interface sẽ được trình bày trong bài INTERFACE TRONG C#) và thiết kế xem chúng sẽ tương tác với nhau như thế nào.
 
-                //Tính đa hình: Là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng một thông điệp theo các cách khác nhau.Chi tiết sẽ được trình bày và giải thích trong bài TÍNH ĐA HÌNH TRONG C#.
+                //       - Tính kế thừa: Lớp cha có thể chia sẽ dữ liệu và phương thức cho các lớp con, các lớp con khỏi phải định nghĩa lại, giúp chương trình ngắn gọn.Chi tiết sẽ được trình bày trong bài TÍNH KẾ THỪA TRONG C#.
+
+                //       - Tính đa hình: Là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng một thông điệp theo các cách khác nhau.Chi tiết sẽ được trình bày và giải thích trong bài TÍNH ĐA HÌNH TRONG C#.
                 #endregion
 
                 #region Class trong Lập trình hướng đối tượng
+                //Một class trong C# có các thành phần như:
+
+                //    Thuộc tính: là các thành phần dữ liệu hay còn gọi là các biến.
+                //    Phương thức: là các hàm thành phần thể hiện các hành vi của một đối tượng thuộc lớp.
+                //    Phương thức khởi tạo.
+                //    Phương thức huỷ bỏ.
+
+                //Class trong C# thực chất là một kiểu dữ liệu mới do người dùng tự định nghĩa.
+
+                //Khởi tạo:
+                //    Bạn có thể khởi tạo 1 đối tượng thuộc lớp thông qua toán tử new.
+
+                //    Ví dụ:
+
+                //    Animal Dog = new Animal();
+
+                //    Class là kiểu dữ liệu tham chiếu vì thế đối tượng dữ liệu thực sự được lưu trên heap.
+
+                //Sử dụng:
+                //    Để gọi đến các thuộc tính bên trong lớp:
+
+                //    <tên đối tượng>. <tên thuộc tính>;
+
+                //    Để gọi đến các phương thức bên trong lớp:
+
+                //    <tên đối tượng> . <tên phương thức> (<danh sách tham số nếu có>);
+
+                //Phương thức khởi tạo
+                //        Phương thức khởi tạo(Constructor) là những phương thức đặc biệt được gọi đến ngay khi khởi tạo 1 đối tượng nào đó.
+
+                //        Đặc điểm
+                //        Có tên trùng với tên lớp.
+                //        Không có kiểu trả về.
+                //        Được tự động gọi khi 1 đối tượng thuộc lớp được khởi tạo.
+                //        Nếu như bạn không khai báo bất kỳ phương thức khởi tạo nào thì hệ thống sẽ tự tạo ra phương thức khởi tạo mặc định không đối số và không có nội dung gì.
+                //        Có thể có nhiều constructor bên trong 1 lớp.
+
+                //        + Có 2 loại phương thức khởi tạo:
+
+                //              - Phương thức khởi tạo không đối số:
+                //        Là phương thức khởi tạo không có bất kỳ tham số truyền vào nào.
+                //        Thường dùng để khởi tạo các giá trị mặc định cho các thuộc tính bên trong class khi khởi tạo đối tượng(giá trị mặc định này do người lập trình quyết định).
+                //              - Phương thức khởi tạo có đối số:
+                //        Là phương thức khởi tạo có tham số truyền vào.Và khi khởi tạo đối tượng để phương thức này được gọi ta cần truyền đầy đủ các tham số.
+                //        Thường dùng để khởi tạo các giá trị cho các thuộc thuộc tính bên trong class khi khởi tạo đối tượng(các giá trị này do người khởi tạo đối tượng truyền vào).
+
+                //Phương thức huỷ bỏ
+                //        Phương thức huỷ bỏ(destructor) là phương thức đặc biệt được gọi đến trước khi 1 đối tượng bị thu hồi.
+
+                //        + Đặc điểm
+                //                - Có tên trùng với tên lớp nhưng để phân biệt với constructor thì ta thêm dấu “~” vào trước tên lớp.
+                //                -Không có kiểu trả về.
+                //                -Được tự động gọi khi 1 đối tượng thuộc lớp kết thúc “vòng đời” của nó thông qua bộ thu dọn rác tự động GC(Garbage Collection).
+                //                - Nếu bạn không khai báo destructor thì C# sẽ tự động tạo ra 1 destructor mặc định và không có nội dung gì.
+                //                - Chỉ có 1 destructor duy nhất trong 1 lớp.
 
                 #endregion
-
-                #region
-
-                #endregion
-
-                #region
-
-                #endregion
-
-                #region
-
-                #endregion
-
-
             }
-        }
+    }
 
     }
 }
