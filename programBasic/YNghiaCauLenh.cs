@@ -948,10 +948,202 @@ namespace programBasic
                 //                -Được tự động gọi khi 1 đối tượng thuộc lớp kết thúc “vòng đời” của nó thông qua bộ thu dọn rác tự động GC(Garbage Collection).
                 //                - Nếu bạn không khai báo destructor thì C# sẽ tự động tạo ra 1 destructor mặc định và không có nội dung gì.
                 //                - Chỉ có 1 destructor duy nhất trong 1 lớp.
+                /*cú pháp destructer 
+                 * ~ nameClass(){}
+                 */
+                #endregion
+
+                #region Các loại phạm vi truy cập trong Lập trình hướng đối tượng
+
+                //Phạm vi truy cập là cách mà người lập trình quy định về quyền được truy xuất đến các thành phần của lớp.
+
+                //Trong C# có 5 loại phạm vi truy cập:
+                //    public: không hạn chế. CÓ thể truy cập ở bất kỳ nơi nào
+                //    private: thành phần mang thuộc tính này là thành phần riêng tư chỉ có nội bộ bên trông lớp chưa nó mới có thê sử dụng.
+                //    protected: tưng tự như private ngoài ra nó còn có thể truy cập từ lớp dẫn xuât lớp chứa nó
+                //    internal: thuộc tính truy cập cho một assembly( nói các khác là là cùng 1 project ) thuộc tín này thường được dùng cho class.
+                //    protected internal: tương tự như internal ngoài ra nó có thể truy cập từ lớp dẫn xuất lớp chưa nó
+
+                //Nếu khai báo lớp mà không chỉ ra phạm vi cụ thể thì phạm vi mặc định là internal.
+                //Nếu khai báo thành phần bên trong lớp mà không chỉ ra phạm vi cụ thể thì phạm vị mặc định là private.
+
+                //Trong tính đóng gói có 2 ý chính:
+                //    + Các dữ liệu và phương thức có liên quan với nhau được đóng gói thành các lớp để tiện cho việc quản lý và sử dụng.Điều này được thể hiện qua cách ta xây dựng 1 class.
+                //    + Đóng gói còn để che giấu một số thông tin và chi tiết cài đặt nội bộ để bên ngoài không thể nhìn thấy.Điều này được thể hiện qua các phạm vi truy cập đã trình bày ở trên.Cụ thể:
+                //        - Các thuộc tính thường sẽ có phạm vi là private. Vì đây chính là các thông tin nội bộ của lớp không thể để truy cập 1 cách tuỳ tiện được(che giấu thông tin).
+                //        - Các phương thức thường sẽ có phạm vi là public. Vì đây chính là các hành vi(thao tác) mà lớp hỗ trợ cho chúng ta thực hiện những công việc nhất định nên cần phải cho phép mọi người có thể sử dụng được.
+
+                //Phương thức truy vấn, phương thức cập nhật
+
+                //     + Một số quy ước nhỏ về cách đặt tên các phương thức này:
+
+                //            - Những phương thức truy vấn nên bắt đầu bằng từ khoá get và kèm theo sau là tên thuộc tính tương ứng. Ví dụ: getHoTen(), getDiemToan(), . . .
+                //            - Những phương thức cập nhật nên bắt đầu bằng từ khoá set và kèm theo sau là tên thuộc tính tương ứng. Ví dụ: setDiemToan(), setHoTen(), . . .
+                //            - Nếu thuộc tính kiểu luận lý(bool) thì tên phương thức truy vấn nên bắt đầu bằng từ khoá is và kèm theo sau là tên thuộc tính tương ứng.
+                //            - Phương thức truy vấn sẽ có kiểu trả về trùng với kiểu dữ liệu của thuộc tính tương ứng và không có tham số truyền vào.
+                //            - Phương thức cập nhật sẽ có kiểu trả về là void và có 1 tham số truyền vào có kiểu dữ liệu trùng với kiểu dữ liệu của thuộc tính tương ứng.
+                #endregion
+
+                #region Từ khóa Static trong Lập trình hướng đối tượng
+                //Đặc điểm của static :
+
+                //    Được khởi tạo 1 lần duy nhất ngay khi biên dịch chương trình.
+                //    Có thể dùng chung cho mọi đối tượng.
+                //    Được gọi thông qua tên lớp.
+                //    Được huỷ khi kết thúc chương trình.
+
+                //Biến tĩnh
+                //        Cú pháp:
+                //        < phạm vi truy cập > static <kiểu dữ liệu> < tên biến > = < giá trị khởi tạo >;
+
+                //    Bạn có thể hiểu biến tĩnh là:
+
+                //        Một biến dùng chung cho mọi đối tượng thuộc lớp.
+                //        Nó được khởi tạo vùng nhớ 1 lần duy nhất ngay khi chương trình được nạp vào bộ nhớ để thực thi và huỷ khi kết thúc chương trình.
+
+                //Phương thức tĩnh
+                //    Cú pháp:
+                //    < phạm vi truy cập > static <kiểu trả về> < tên phương thức>
+                //    {
+                //               // nội dung phương thức
+                //    }
+
+                //Hàm tĩnh được sử dụng với 2 mục đích chính:
+
+                //    Hàm tĩnh là 1 hàm dùng chung của lớp.Được gọi thông qua tên lớp và không cần khởi tạo bất kỳ đối tượng nào, từ đó tránh việc lãng phí bộ nhớ.
+                //    Hỗ trợ trong việc viết các hàm tiện ích để sử dụng lại.
+
+                //Lớp tĩnh
+                //    Cú pháp:
+                //    < phạm vi truy cập > static class <tên lớp>
+                //    {
+                //                            // các thành phần của lớp
+                //    }
+
+                //Lớp tĩnh có các đặc điểm
+                //        Chỉ chứa các thành phần tĩnh(biến tĩnh, phương thức tĩnh).
+                //        Không thể khai báo, khởi tạo 1 đối tượng thuộc lớp tĩnh.
+                //    Với 2 đặc điểm trên có thể thấy lớp tĩnh thường được dùng với mục đích khai báo 1 lớp tiện ích chứa các hàm tiện ích hoặc hằng số vì:
+
+                //        Ràng buộc các thành phần bên trong lớp phải là static.
+                //        Không cho phép tạo ra các đối tượng dư thừa làm lãng phí bộ nhớ.
+                //        Mọi thứ đều được truy cập thông qua tên lớp.
+                //    Xét lại ví dụ trong phần hàm tĩnh. Rõ ràng là người có thể vô ý tạo ra đối tượng thuộc TienIch. Đối tượng này khá vô nghĩa vì không có gì để sử dụng.Để tránh điều này ta thêm từ khoá static vào trước khai báo lớp.
+
+                //Phương thức khởi tạo tĩnh
+                //        Cú pháp:
+                //static <tên lớp> ()
+
+                //{
+                //                    // nội dung của constructor
+                //}
+
+                //Đặc điểm của constructor tĩnh
+                //    Không được phép khai báo phạm vi truy cập. Nếu cố tình làm điều này C# sẽ báo lỗi khi biên dịch.
+                //    Constructor tĩnh sẽ được gọi 1 lần duy nhất khi chương trình được nạp vào bộ nhớ để thực thi như là 1 cách để ta thiết lập một số thông số theo ý muốn trước khi có bất kỳ đối tượng nào được tạo ra.
+                //    Constructor tĩnh cũng giống phương thức tĩnh nên không thể gọi các thuộc tính không phải static.
+                #endregion
+
+                #region Kế thừa trong Lập trình hướng đối tượng
+                //    khái niệm
+                //    Trong thực tế, kế thừa là việc thừa hưởng lại những gì mà người khác để lại. Ví dụ: con kế thừa tài sản của cha, . . .
+                //    Trong lập trình cũng vậy, kế thừa trong lập trình là cách 1 lớp có thể thừa hưởng lại những thuộc tính, phương thức từ 1 lớp khác và sử dụng chúng như là của bản thân mình.
+                //    Một định nghĩa trừu tượng hơn về kế thừa: là một đặc điểm của ngôn ngữ hướng đối tượng dùng để biểu diễn mối quan hệ đặc biệt hoá – tổng quát hoá giữa các lớp.
+
+                //    ưu điểm
+                //        Cho phép xây dựng 1 lớp mới từ lớp đã có.
+                //             Lớp mới gọi là lớp con(subclass) hay lớp dẫn xuất(derived class).
+                //             Lớp đã có gọi là lớp cha(superclass) hay lớp cơ sở(base class).
+                //        Cho phép chia sẽ các thông tin chung nhằm tái sử dụng và đồng thời giúp ta dễ dàng nâng cấp, dễ dàng bảo trì.
+                //        Định nghĩa sự tương thích giữa các lớp, nhờ đó ta có thể chuyển kiểu tự động .
+                //    Cú pháp
+                //        class <tên lớp con> : <tên lớp cha>
+
+                //        {
+
+                //        }
+                //    Lưu ý:
+
+                //        Trong C#, không hỗ trợ đa kế thừa (1 lớp kế thừa từ nhiều lớp) những lại hỗ trợ thực thi nhiều interface (khái niệm về interface sẽ được trình bày trong bài INTERFACE TRONG C#).
+
+                //        Các thành phần của lớp cha có được kế thừa xuống lớp con hay không là do phạm vi truy cập của thành phần đó là gì.
+
+                //             Thành phần có phạm vi là private thì không được kế thừa.
+                //            Thành phần có phạm vi là protected, public thì được phép kế thừa.
+                //        Phương thức khởi tạo và phương thức huỷ bỏ không được kế thừa.
+
+                //    các vấn đề trông kế thừa
+                //        Phương thức khởi tạo mặc định của lớp cha luôn luôn được gọi mỗi khi có 1 đối tượng thuộc lớp con khởi tạo.Và được gọi trước phương thức khởi tạo của lớp con.
+
+                //        Nếu như lớp cha có phương thức khởi tạo có tham số thì đòi hỏi lớp con phải có phương thức khởi tạo tương ứng và thực hiện gọi phương thức khởi tạo của lớp cha thông qua từ khoá base.
+                //    cú pháp
+                //        public <tên lớp>(<danh sách tham số của lớp con>) : base(<danh sách tham số>)
+                //            {
+
+                //            }
+                //     Vấn đề hàm trùng tên và cách gọi phương thức của lớp cha
+                //        Xét lại ví dụ phía trên.Giả sử lớp Animal có phương phức tên Info(). Lớp Cat kế thừa lớp Animal nên cũng sẽ nhận được phương thức này.
+
+                //         Bây giờ trong lớp Cat ta cũng định nghĩa 1 phương thức tên Info(), có kiểu trả về là void và không có tham số truyền vào. Vậy câu lệnh sau sẽ gọi phương thức Info() nào?
+                //         Cụ thể bạn sẽ thêm từ khoá new vào trước khai báo hàm Info() trong lớp Cat.
+                //    cú pháp
+                //           public new void Info()
+                //                {
+
+                //                }
+                //    Khi đó hàm Info() của lớp cha sẽ bị che giấu đi.Và mọi đối tượng bên ngoài chỉ gọi được hàm Info() của lớp Cat.
+                //    Từ khoá này chỉ làm tường minh khai báo của hàm Info() chứ về kết quả khi chạy chương trình sẽ không có thay đổi.
+                //    Đến đây 1 câu hỏi nữa được đặt ra: Vậy có cách nào gọi hàm Info() của lớp cha được nữa không?
+                //    Câu trả lời là có nhưng chỉ có thể gọi trong nội bộ của lớp Cat mà thôi
+                //    Bạn có thể sử dụng từ khoá base để đại diện cho lớp cha và gọi đến các thành phần của lớp cha.
+                //        ví dụ
+                //        public new void Info()
+                //            {
+
+                //                Console.WriteLine(" Info of Cat: ");
+                //                base.Info(); // gọi đến hàm Info() của lớp cha
+
+                //            }
+                //Vấn đề cấp phát vùng nhớ cho đối tượng
+                //    Bình thường nếu như 1 đối tượng kiểu Animal không thể khởi tạo vùng nhớ có kiểu Cat được.
+                //    Animal cat = new Cat();
+                //    Câu lệnh này sẽ báo lỗi: “không thể chuyển từ kiểu Cat sang kiểu Animal”.
+                //    Nhưng nếu như 2 lớp này có quan hệ kế thừa thì điều này hoàn toàn được.
+                //    Tính chất này được phát biểu như sau:
+                //    “Một đối tượng thuộc lớp cha có thể tham chiếu đến vùng nhớ của đối tượng thuộc lớp con nhưng ngược lại thì không”.
+                //    Có nghĩa là nếu lớp Cat kế thừa từ lớp Animal thì câu lệnh Animal cat = new Cat(); hoàn toàn đúng nhưng ngược lại Cat cat = new Animal(); sẽ báo lỗi.
+                //    Bạn cần lưu ý điều này.Vì muốn thể hiện tính đa hình trong lập trình ta phải sử dụng tính chất này.
+
+                #endregion
+
+                #region Đa hình trong Lập trình hướng đối tượng
+                //Khái niệm tính đa hình
+                //     * Tính đa hình là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng 1 thông điệp theo các cách khác nhau.
+                //     * Để thể hiện được tính đa hình:
+                //        + Các lớp phải có quan hệ kế thừa với cùng 1 lớp cha nào đó.
+                //        + Phương thức đa hình phải được ghi đè(override) ở các lớp con(sẽ được trình bày ngay sau đây).
+                //Từ khoá virtual và từ khoá override
+                //    * Virtual là từ khoá dùng để khai báo 1 phương thức ảo(phương thức ảo là phương thức có thể ghi đè được).
+
+                //    * Override là từ khoá dùng để đánh dấu phương thức ghi đè lên phương thức của lớp cha.
+
+                //    * Lưu ý:
+
+                //        + Chỉ có thể ghi đè lên phương thức virtual hoặc abstract (sẽ trình bày ngay sau đây).
+                //        + Tính đa hình chỉ được thể hiện khi đã ghi đè lên phương thức của lớp cha.
+
+                //Lớp trừu tượng và phương thức thuần ảo
+                //    Phương thức thuần ảo là 1  phương thức ảo và không có định nghĩa bên trong.
+                //        Lớp trừu tượng là lớp chứa phương thức thuần ảo.
+                //        Abstract là từ khoá dùng để khai báo 1 lớp trừu tượng hoặc 1 phương thức thuần ảo.
+                //    lưu ý:
+                //        Khi kế thừa 1 lớp trừu tượng bạn bắt buộc phải override tất cả các phương thức thuần ảo nhằm đảm bảo tính hợp lệ cho chương trình.
 
                 #endregion
             }
-    }
 
+
+        }
+        
     }
 }

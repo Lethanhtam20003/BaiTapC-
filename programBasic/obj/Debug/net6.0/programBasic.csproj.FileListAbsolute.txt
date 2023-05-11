@@ -13,3 +13,11 @@ C:\Users\ADMIN\source\repos\programBasic\obj\Debug\net6.0\refint\programBasic.dl
 C:\Users\ADMIN\source\repos\programBasic\obj\Debug\net6.0\programBasic.pdb
 C:\Users\ADMIN\source\repos\programBasic\obj\Debug\net6.0\programBasic.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\programBasic\obj\Debug\net6.0\ref\programBasic.dll
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.dll
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\refint\programBasic.dll
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\programBasic\obj\Debug\net6.0\programBasic.pdb
