@@ -10,9 +10,8 @@ namespace programBasic
     {
         public static void Main(string[] args)
         {
-
-            operater cls = new operater();
-            cls.exercise9and10and11();
+            CShapeBasic cls = new CShapeBasic();
+            cls.cls6.exercice21();
         }
     }
 }

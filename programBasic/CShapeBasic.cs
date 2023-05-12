@@ -2,11 +2,18 @@
 {
     public class CShapeBasic
     {
+        public controlIO cls1 = new controlIO();
+        public variable cls2 = new variable();
+        public operater cls3 = new operater();
+        public conditions cls4 = new conditions();
+        public dayMonthYear cls5 = new dayMonthYear();
+        public appConsileBasic cls6 = new appConsileBasic();
+        public algorithm cls7 = new algorithm();
     }
-   
 
-    class controlIO
+    public class controlIO
     {
+
         public subMethod sub = new subMethod();
         /// <summary>
         /// xuất ra màn hình  "the first Console Application program "
@@ -195,7 +202,7 @@
 
     }
 
-    class variable
+    public class variable
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -229,7 +236,7 @@
 
     }
 
-    class operater
+    public class operater
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -328,7 +335,7 @@
 
     }
 
-    class conditions
+    public class conditions
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -629,7 +636,7 @@
         //}
     }
 
-    class dayMonthYear
+    public class dayMonthYear
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -680,7 +687,7 @@
         }
     }
 
-    class appConsileBasic
+    public class appConsileBasic
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -982,7 +989,7 @@
         }
     }
 
-    class algorithm
+    public class algorithm
     {
         public subMethod sub = new subMethod();
         /// <summary>
@@ -1155,15 +1162,6 @@
             return;
         }
         #endregion
-    }
-
-
-
-
-    class test
-    {
-
-        
     }
 
     public class subMethod
