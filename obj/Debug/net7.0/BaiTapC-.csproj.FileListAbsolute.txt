@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\obj\Debug\net7.0\BaiTapC-.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\obj\Debug\net7.0\BaiTapC-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\obj\Debug\net7.0\BaiTapC-.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\obj\Debug\net7.0\BaiTapC-.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\obj\Debug\net7.0\BaiTapC-.csproj.CoreCompileInputs.cache

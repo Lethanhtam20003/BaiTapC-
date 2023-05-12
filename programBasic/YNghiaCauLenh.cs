@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Security.Claims;
 using System.Text;
@@ -1139,6 +1140,38 @@ namespace programBasic
                 //    lưu ý:
                 //        Khi kế thừa 1 lớp trừu tượng bạn bắt buộc phải override tất cả các phương thức thuần ảo nhằm đảm bảo tính hợp lệ cho chương trình.
 
+                #endregion
+
+                #region Interface trong Lập trình hướng đối tượng
+                //Interface là gì? Tại sao lại sử dụng interface
+                //    Interface (nhiều tài liệu gọi là giao diện hoặc lớp giao tiếp) là 1 tập các thành phần chỉ có khai báo mà không có phần định nghĩa(giống phương thức thuần ảo đã trình bày ở bài ĐA HÌNH TRONG C#).
+
+                //    Các thành phần này có thể là:
+
+                //    Phương thức
+                //    Property 
+                //    Event 
+                //    Indexers
+
+                //    Một interface được hiểu như là 1 khuôn mẫu mà mọi lớp thực thi nó đều phải tuân theo.Interface sẽ định nghĩa phần “làm gì” (khai báo) và những lớp thực thi interface này sẽ định nghĩa phần “làm như thế nào” (định nghĩa nội dung) tương ứng.
+
+                //Đặc điểm của interface
+                //    Chỉ chứa khai báo không chứa phần định nghĩa(giống phương thức thuần ảo). Mặc dù giống phương thức thuần ảo nhưng bạn không cần phải khai báo từ khoá abstract.
+                //    Việc ghi đè 1 thành phần trong interface cũng không cần từ khoá override.
+                //    Không thể khai báo phạm vi truy cập cho các thành phần bên trong interface. Các thành phần này sẽ mặc định là public.
+                //    Interface không chứa các thuộc tính(các biến) dù là hằng số hay biến tĩnh vẫn không được.
+                //    Interface không có constructor cũng không có destructor.
+                //    Các lớp có thể thực thi nhiều interface cùng lúc(ở 1 góc độ nào đó có thể nó là phương án thay thế đa kế thừa).
+                //    Một interface có thể kế thừa nhiều interface khác nhưng không thể kế thừa bất kỳ lớp nào.
+                //Khai báo và sử dụng interface
+                //Cú pháp:
+                //    interface <tên interface>
+
+                //        {
+
+                //            // Khai báo các thành phần bên trong interface
+
+                //        }
                 #endregion
             }
 

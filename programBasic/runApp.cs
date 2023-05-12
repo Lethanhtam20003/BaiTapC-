@@ -8,14 +8,11 @@ namespace programBasic
 {
     internal class runApp
     {
-        public static void main(string[] args) { 
-            programBasic.runForBaiTapTrenKteam_ThuatToanBT cls = new runForBaiTapTrenKteam_ThuatToanBT();
-            programBasic.runForcacpheptinh_CacPhepTinh cls2 = new runForcacpheptinh_CacPhepTinh();
-            programBasic.runForLuaDoThuatToan cls3 = new runForLuaDoThuatToan();
-            programBasic.runForMatrixProgram_ThuatToanMaTran cls4 = new runForMatrixProgram_ThuatToanMaTran();
+        public static void Main(string[] args)
+        {
 
-
-            cls.runForThisClass();
+            operater cls = new operater();
+            cls.exercise9and10and11();
         }
     }
 }
