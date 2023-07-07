@@ -1,7 +1,8 @@
-namespace NUnitTestProject
+namespace NUnitTestDemo
+
 {
     [TestFixture]
-    public class Tests
+    public class PrimeService_IsPrimeShould 
     {
         private PrimeService _service;
         [SetUp]
@@ -26,5 +27,28 @@ namespace NUnitTestProject
 
         }
 
+        [TestCase(3)]
+        public void isPrime_InputValueLess2_ReturnException(int value)
+        {
+            Assert.Throws<NotImplementedException>(()=> { _service.isPrime(value); });
+            //var result = _service.isPrime(value);
+            //Assert.IsFalse(result, $"{value} should not be prime");
+
+        }
+
+        [Test]
+        public void stringMethodTest_ReturnTrue ()
+        {
+            // arrange : setup data 
+            string input = null;
+            bool expected = true ;
+
+            // action : 
+            var result = string.IsNullOrEmpty(input) ;
+
+            // asser
+            Assert.That(expected,Is.EqualTo( result)) ;
+        }
     }
+    
 }

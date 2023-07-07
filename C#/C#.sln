@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oldLesstion", "oldLesstion"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "programBasic", "..\programBasic\programBasic.csproj", "{BB945771-8DB9-4E24-ABCD-FCFE6583F5C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject", "..\NUnitTestProject\NUnitTestProject.csproj", "{590C21AD-4547-4952-B2C2-1BE0F6646182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestDemo", "..\NUnitTestProject\NUnitTestDemo.csproj", "{590C21AD-4547-4952-B2C2-1BE0F6646182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

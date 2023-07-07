@@ -13,9 +13,18 @@ namespace programBasic
     class YNghiaCauLenh //chỉ tên của chương trình
     //khối qoặc nhọn bên dưới phụ thuộc vào namespacse. namespace có thể chứa nhiều lớp 
     {
-        // khối câu lệnh lớp 
-        class COBAN
+        // qui tắc lập trình và phím tắt
+        class QUITAC
         {
+            // khối câu lệnh lớp (class)
+            class example
+            {
+                // hàm main là hàm dc tạo săn và là hàm chính của chương trình nó sẽ chạy đầu tiên khi program run 
+                public static void main(string[] args)
+                { 
+
+                }
+            }
             /// <summary>
             /// khái niệm hàm và phương thức
             /// hàm : sẽ trả về kiểu dữ liệu z đó
@@ -25,8 +34,14 @@ namespace programBasic
             ///  ctrl +k +c : TẠO COMMENT 
             ///  ctrl +K +U : ĐỐNG COMMENT 
             ///  /// </summary>
+            
+        }
+
+        class COBAN
+        {
+           
             static int i = 5;
-            // hàm main là hàm dc tạo săn và là hàm chính của chương trình  
+             
             public void study()
             {
 
@@ -82,8 +97,10 @@ namespace programBasic
                     string a = "chuoi";
                     float b = 1.2f;
                     char d = 'g';
+                    Console.WriteLine(a, b, d, bienA=2);
                     Console.WriteLine("bienB= ", bienB);//xuất giá trị biênb ra màn hình với giá trị = 10
-
+                    bienA = bienB;
+                    bienB=bienA;
                 }
                 /* cấu trúc
                  *  <kiểu dữ liệu> <tên biến>
@@ -100,6 +117,8 @@ namespace programBasic
                    -Tên không được bắt đầu bằng số.
                    -Tên biến không được trùng nhau.
                    -Tên biến không được trùng với từ khóa
+                   - Tên biến phân biệt chữ hoa chư thường 
+
                  */
 
 

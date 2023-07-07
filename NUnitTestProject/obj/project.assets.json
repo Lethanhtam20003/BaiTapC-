@@ -993,9 +993,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestProject.csproj",
-      "projectName": "NUnitTestProject",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestDemo.csproj",
+      "projectName": "NUnitTestDemo",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestDemo.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
@@ -1067,7 +1067,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

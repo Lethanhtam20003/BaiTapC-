@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2q/atnQLylEV9yFWH1btqnTYcJm9xEW9+960SH2vgw5ZDIDCimZ7EnPTQE0kbZE+2pMHqwzn8lguU4/qdFg9Q==",
+  "dgSpecHash": "C44D27igbn1GRgAPzeN7u9CHOagNQKXGmcTNKwkFJa+ltPikzBe+pmsypRw+hhuePY2LBR3ienl+g3zSSifC1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestProject.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\source\\repos\\Lethanhtam20003\\BaiTapC-\\NUnitTestProject\\NUnitTestDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
