@@ -33,8 +33,15 @@ namespace programBasic
             /// phím tắp của comment
             ///  ctrl +k +c : TẠO COMMENT 
             ///  ctrl +K +U : ĐỐNG COMMENT 
-            ///  /// </summary>
-            
+            ///  </summary>
+          
+            #region vùng có thể ẩn đi
+            // tạo ra 1 vùng có thẻ đống lại
+            // câu trúc
+            //#region <các câu lệnh > #endregion
+
+            #endregion
+
         }
 
         class COBAN
@@ -70,12 +77,7 @@ namespace programBasic
                                   //nếu true thì ko ghi ra màn hinh <=> false thì hiện thị ra màn hình
                 #endregion
 
-                #region vùng có thể ẩn đi
-                // tạo ra 1 vùng có thẻ đống lại
-                // câu trúc
-                //#region <các câu lệnh > #endregion
                 
-                #endregion
 
                 #region Biến
                 /* 

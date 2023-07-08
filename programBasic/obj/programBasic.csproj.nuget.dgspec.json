@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\programBasic\\programBasic.csproj": {}
+    "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\programBasic\\programBasic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\programBasic\\programBasic.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\programBasic\\programBasic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\programBasic\\programBasic.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\programBasic\\programBasic.csproj",
         "projectName": "programBasic",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\programBasic\\programBasic.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\programBasic\\programBasic.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\programBasic\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\programBasic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
