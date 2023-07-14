@@ -28,3 +28,5 @@ C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\C#\obj\Debug\net6.0\refint\
 C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\C#\obj\Debug\net6.0\C#.pdb
 C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\C#\obj\Debug\net6.0\C#.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\Lethanhtam20003\BaiTapC-\C#\obj\Debug\net6.0\ref\C#.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\C#\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\C#\obj\Debug\net6.0\C#.csproj.CopyComplete

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using C_;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace c
@@ -7,26 +8,21 @@ namespace c
     {
         static void Main(string[] args)
         {
-            Program pro = new Program();
-            char[] chars = pro.converStringToArrayChar("ahihi");
-            foreach (char c in chars)
-            {
-                Console.WriteLine(c);
-            }
-            Console.WriteLine();
+           Algorithm algorithm = new Algorithm();
+            int[] arr = new int[] { 12, 5, 7, 4, 4, 9, 1, 0, 14, 78 };
+            int[] result = new int[] { 0, 1, 4, 4, 5, 7, 9, 12, 14, 78 };
+            int[] chek = algorithm.SelectionSort(arr);
+            printArr(chek);
+            printArr(result);
         }
 
-        char[] converStringToArrayChar(String srt)
+        public static  void printArr(int[] result)
         {
-            char[] result = new char[srt.Length];
-            for (int i = 0;i<result.Length;i++) 
+          foreach (int i in result)
             {
-                result[i] = srt[i];
+                Console.Write(i+"   ");
             }
-            return result;
         }
-
-
     }
      
 }

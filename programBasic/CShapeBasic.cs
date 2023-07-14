@@ -56,34 +56,17 @@
 
         /// <summary>
         /// Viết chương trình cho phép nhập vào một số n và in ra màn hình giá trị [-n..n]
+        /// intput : (int)n
+        /// return : int[n]
         /// </summary>
-        public void exercice22()
+        public int[] exercice22(int n)
         {
-            Console.Write("nhap so tu nhien n ");
-            string ip1 = Console.ReadLine();
-            int n = sub.testIntInPut(ip1);
-            int[] A = new int[n];
-            for (int i1 = 0; i1 < n; i1++)
+            int[] result = new int[2*n+1];
+            for (int i  = -n,j =0 ; i <= n; j++,i++)
             {
-                A[i1] = i1;
-                Console.Write(" {0} ", A[i1]);
+                result[j] = i;
             }
-            Console.WriteLine();
-            int i = 0;
-            while (i < n)
-            {
-                A[i] = i;
-                Console.Write(" {0} ", A[i]);
-                i++;
-            }
-            i = 0;
-            Console.WriteLine();
-            do
-            {
-                A[i] = i;
-                Console.Write(" {0} ", A[i]);
-                i++;
-            } while (i < n);
+             return result;
         }
         /// <summary>
         /// 22. Viết chương trình cho phép nhập vào một số n và in ra màn hình số chẵn từ [-n..n]

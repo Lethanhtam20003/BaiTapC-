@@ -43,10 +43,10 @@ namespace programBasic
             #endregion
 
         }
-
+        
+        //co ban
         class COBAN
-        {
-           
+        {     
             static int i = 5;
              
             public void study()
@@ -76,8 +76,6 @@ namespace programBasic
                 Console.ReadKey();// nhập 1 ký tự từ bàn phím và kiểu dữ liệu trả về là true hoạc false 
                                   //nếu true thì ko ghi ra màn hinh <=> false thì hiện thị ra màn hình
                 #endregion
-
-                
 
                 #region Biến
                 /* 
@@ -816,7 +814,8 @@ namespace programBasic
 
             }
         }
-
+        
+        //Nang cao
         class nangcao
         {
             public void study()
