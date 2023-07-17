@@ -1,0 +1,5 @@
+{
+    "nunitTestRunner.discoveryOnStartup": true,
+    "javascript.autoClosingTags": true,
+    "java.test.defaultConfig": "a"
+}
