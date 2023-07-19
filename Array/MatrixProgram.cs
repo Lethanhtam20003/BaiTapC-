@@ -78,12 +78,13 @@ namespace CShapeTutoriol
             }
             return A;
         }
+       
         /// <summary>
         /// kiểm tra có phải số nguyên tố hay ko 
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        public Boolean songuyento(int n)
+        public Boolean isPrime(int n)
         {
             int i = 0;
             if (n <= 2)
@@ -448,24 +449,26 @@ namespace CShapeTutoriol
         /// Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
         /// input n Double
         /// output max 
-        /// </summary>
-        public void Exercise122()
+        /// </summary>      
+        public int Exercise122New(int[] arr)
         {
-            Console.Write(" Enter the number N : " );
-            int n = Convert.ToInt32(Console.ReadLine());
-            int i=0,save=0;
-            int min = 0, max = 100;
-            int[] A = khoiTaoMangRandom(n,min,max);
-            while (i<n)
+            int result;
+            if (arr.Length == 0)
             {
-                if (A[i]>=save)
-                {
-                    save = A[i];
-                }
-                i++;
+                result = -1;
             }
-            Console.WriteLine(" Max value of array : {0}", save);
-            
+            result = arr[0];
+            int length = arr.Length;
+            for (int i = 0; i < length; i++)
+            {
+                if (result < arr[i])
+                {
+                    result =  arr[i];
+                }
+            }
+           
+            return result;
+
         }
 
         /// <summary>
@@ -473,25 +476,25 @@ namespace CShapeTutoriol
         /// input n double => array n number
         /// output position or smallest number n
         /// </summary>
-        public void Exercise123()
+        public int Exercise123New(int[] arr)
         {
-            int min = 0, max = 100;
-            Console.Write(" Enter the number N : " );
-            string ip = Console.ReadLine();
-            int n = testInputINT(ip);
-            int[] A = khoiTaoMangRandom(n,min,max);
-            int save = A[0],i =0,position = 0;
-            while (i<n)
+            int result;  
+            if (arr.Length == 0)
             {
-                if (A[i] < save)
-                {
-                    save = A[i];
-                    position = i;
-                }
-                i++;
+                result = -1;
             }
-            Console.WriteLine("Min value of array is :{0} ", save);
-            Console.WriteLine("position of smallest n is : {0} ", position);
+            result = arr[0];
+            int length = arr.Length;
+            for (int i = 0; i < length; i++)
+            {
+                if (result > arr[i])
+                {
+                    result = arr[i];
+                }
+            }
+
+            return result;
+
         }
 
         /// <summary>
@@ -518,13 +521,42 @@ namespace CShapeTutoriol
             int count = 0;
             for (int i = 0; i < n; i++)
             {
-                if (A[i]< 100 && songuyento(A[i])==true)
+                if (A[i]< 100 && isPrime(A[i])==true)
                 {
                     count++;
                 }
             }
             Console.WriteLine("There are {0} primes less than 100 in the array",count);
             
+        }
+        
+        /// <summary>
+        ///Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
+        /// </summary>
+        public bool Exercise124(int[] arr)
+        {
+            bool result = false;
+            foreach (int i in arr)
+            {
+                if (i < 2004 || i %2  == 0)
+                {
+                    return result = true;
+                }
+            }
+
+            return result;
+        }
+
+
+        /// <summary>
+        ///Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
+        /// </summary>
+        public int Exercise125(int[] arr)
+        {
+            int result = 0;
+
+
+            return result;
         }
 
         /// <summary>
@@ -878,5 +910,224 @@ namespace CShapeTutoriol
         }
         #endregion
     }
-   
+    
+    class OldVersion
+    {
+
+        /// <summary>
+        /// Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
+        /// input n Double
+        /// output max 
+        /// </summary>
+        public void Exercise122()
+        {
+            Console.Write(" Enter the number N : ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int i = 0, save = 0;
+            int min = 0, max = 100;
+            int[] A = khoiTaoMangRandom(n, min, max);
+            while (i < n)
+            {
+                if (A[i] >= save)
+                {
+                    save = A[i];
+                }
+                i++;
+            }
+            Console.WriteLine(" Max value of array : {0}", save);
+
+        }
+
+
+        /// <summary>
+        /// Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
+        /// input n double => array n number
+        /// output position or smallest number n
+        /// </summary>
+        public void Exercise123()
+        {
+            int min = 0, max = 100;
+            Console.Write(" Enter the number N : ");
+            string ip = Console.ReadLine();
+            int n = testInputINT(ip);
+            int[] A = khoiTaoMangRandom(n, min, max);
+            int save = A[0], i = 0, position = 0;
+            while (i < n)
+            {
+                if (A[i] < save)
+                {
+                    save = A[i];
+                    position = i;
+                }
+                i++;
+            }
+            Console.WriteLine("Min value of array is :{0} ", save);
+            Console.WriteLine("position of smallest n is : {0} ", position);
+        }
+
+
+
+        #region hàm hỗ trợ nhập xuất hay kiểm tra cho các bài toán 
+        public int testInputINT(string ip)
+        {
+        TestAgain:
+            int op;
+            if (int.TryParse(ip, out op) == false)
+            {
+                Console.WriteLine("Enter wrong input !");
+                goto nhaplai;
+            }
+            else
+            {
+                op = int.Parse(ip);
+            }
+            return op;
+        nhaplai:
+            Console.Write("Enter input Again : ");
+            ip = Console.ReadLine();
+            goto TestAgain;
+        }
+
+        public double testInputDouble(string ip)
+        {
+        TestAgain:
+            double op;
+            if (double.TryParse(ip, out op) == false)
+            {
+                Console.WriteLine("Enter wrong input !");
+                goto nhaplai;
+            }
+            else
+            {
+                op = double.Parse(ip);
+            }
+            return op;
+        nhaplai:
+            Console.Write("Enter input Again : ");
+            ip = Console.ReadLine();
+            goto TestAgain;
+        }
+
+        public int[] khoiTaoMangRandom(int n, int min, int max)
+        {
+            int i = 0;
+            int[] A = new int[n];
+            Random value = new Random();
+
+            while (i < n)
+            {
+                A[i] = value.Next(min, max);
+                Console.WriteLine(" A[{0}] = {1}:", i, A[i]);
+                i++;
+            }
+            return A;
+        }
+
+        public double[] khoiTaoMangRandomDOUBLE(int n, int min, int max)
+        {
+            int i = 0;
+            double[] A = new double[n];
+            Random value = new Random();
+
+            while (i < n)
+            {
+                A[i] = value.Next(min, max);
+                Console.WriteLine(" A[{0}] = {1}:", i, A[i]);
+                i++;
+            }
+            return A;
+        }
+        /// <summary>
+        /// kiểm tra có phải số nguyên tố hay ko 
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public Boolean songuyento(int n)
+        {
+            int i = 0;
+            if (n <= 2)
+            {
+                return false;
+            }
+            else
+            {
+                if (n / 2 == 0)
+                {
+                    return false;
+                }
+                if (n % 2 != 0)
+                {
+                    for (i = 3; i < n; i += 2)
+                    {
+                        if (n % i == 0)
+                        {
+                            return true;
+                        }
+                    }
+                }
+
+            }
+            return false;
+        }
+        /// <summary>
+        /// sắp xếp mãng theo thứ tự từ thấp đến cao .
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public double[] sapxep(double[] A, int n)
+        {
+            double buffer = 0;
+            int i = 0;
+            for (int f = i + 1; f < n; f++)
+            {
+                if (A[i] > A[f])
+                {
+                    buffer = A[i];
+                    A[i] = A[f];
+                    A[f] = buffer;
+                }
+            }
+            return A;
+        }
+        /// <summary>
+        ///  khởi tạo mảng aray intialization cho kiểu dữ liệu int 
+        /// </summary>
+        /// <returns></returns>
+        public int[] arrayInitializationInt(int n)
+        {
+            int[] A = new int[n];
+            int i = 0;
+            while (i < n)
+            {
+                Console.Write("              A[{0}] =  ", i);
+                string ip = Console.ReadLine();
+                A[i] = testInputINT(ip);
+                Console.WriteLine();
+            }
+            return A;
+        }
+        /// <summary>
+        /// array initialization khởi tạo dữ liệu cho kiểu double
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public double[] arrayInitializationDouble(int n)
+        {
+            double[] A = new double[n];
+            int i = 0;
+            while (i < n)
+            {
+                Console.Write("              A[{0}] =  ", i);
+                string ip = Console.ReadLine();
+                A[i] = testInputDouble(ip);
+                Console.WriteLine();
+            }
+            return A;
+        }
+        #endregion
+
+
+    }
+
 }

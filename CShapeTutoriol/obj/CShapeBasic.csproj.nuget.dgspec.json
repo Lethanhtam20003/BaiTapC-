@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj": {}
+    "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj",
         "projectName": "CShapeBasic",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\CShapeBasic.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\BaiTapC-\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\Lethanhtam20003\\BaiTapC-\\CShapeTutoriol\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
