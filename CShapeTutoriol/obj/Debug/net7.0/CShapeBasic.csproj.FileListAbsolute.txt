@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\bin\Debug\net7.0\CShapeBasic.exe
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\bin\Debug\net7.0\CShapeBasic.deps.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\bin\Debug\net7.0\CShapeBasic.runtimeconfig.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\bin\Debug\net7.0\CShapeBasic.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\bin\Debug\net7.0\CShapeBasic.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.AssemblyInfo.cs
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\refint\CShapeBasic.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\CShapeBasic.genruntimeconfig.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeTutoriol\obj\Debug\net7.0\ref\CShapeBasic.dll

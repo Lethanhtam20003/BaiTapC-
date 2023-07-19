@@ -79,38 +79,8 @@ namespace CShapeTutoriol
             return A;
         }
        
-        /// <summary>
-        /// kiểm tra có phải số nguyên tố hay ko 
-        /// </summary>
-        /// <param name="n"></param>
-        /// <returns></returns>
-        public Boolean isPrime(int n)
-        {
-            int i = 0;
-            if (n <= 2)
-            {
-                return false;
-            }
-            else
-            {
-                if (n /2 ==0 )
-                {
-                    return false;
-                }
-                if (n % 2 != 0)
-                {
-                    for (i = 3; i < n; i += 2)
-                    {
-                        if (n % i == 0)
-                        {
-                            return true;
-                        }
-                    }
-                }
-
-            }
-            return false;
-        }
+       
+        
         /// <summary>
         /// sắp xếp mãng theo thứ tự từ thấp đến cao .
         /// </summary>
@@ -132,6 +102,7 @@ namespace CShapeTutoriol
             }
             return A;
         }
+        
         /// <summary>
         ///  khởi tạo mảng aray intialization cho kiểu dữ liệu int 
         /// </summary>
@@ -149,6 +120,7 @@ namespace CShapeTutoriol
             }
             return A;
         }
+       
         /// <summary>
         /// array initialization khởi tạo dữ liệu cho kiểu double
         /// </summary>
@@ -167,9 +139,11 @@ namespace CShapeTutoriol
             }
             return A;
         }
+       
         #endregion
 
         #region bài toán về ma trận
+      
         /// <summary>
         /// khoi tao ma tran bat ky
         /// </summary>
@@ -445,192 +419,6 @@ namespace CShapeTutoriol
         }
         #endregion
 
-        /// <summary>
-        /// Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
-        /// input n Double
-        /// output max 
-        /// </summary>      
-        public int Exercise122New(int[] arr)
-        {
-            int result;
-            if (arr.Length == 0)
-            {
-                result = -1;
-            }
-            result = arr[0];
-            int length = arr.Length;
-            for (int i = 0; i < length; i++)
-            {
-                if (result < arr[i])
-                {
-                    result =  arr[i];
-                }
-            }
-           
-            return result;
-
-        }
-
-        /// <summary>
-        /// Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
-        /// input n double => array n number
-        /// output position or smallest number n
-        /// </summary>
-        public int Exercise123New(int[] arr)
-        {
-            int result;  
-            if (arr.Length == 0)
-            {
-                result = -1;
-            }
-            result = arr[0];
-            int length = arr.Length;
-            for (int i = 0; i < length; i++)
-            {
-                if (result > arr[i])
-                {
-                    result = arr[i];
-                }
-            }
-
-            return result;
-
-        }
-
-        /// <summary>
-        ///Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
-        ///Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
-        /// </summary>
-        public void Exercise124_125()
-        {
-            Console.Write(" Enter the number N : ");
-            string ip = Console.ReadLine();
-            int n = testInputINT(ip);
-            int min = 0, max = 2051;
-            int[] A = khoiTaoMangRandom(n,min,max);
-            for (int i = 0; i < n; i++)
-            {
-                if (A[i] < 2004)
-                {
-                    Console.WriteLine("find number small 2004");
-                    goto next;
-                }
-            }
-            Console.WriteLine("not find number small 2004");
-        next:
-            int count = 0;
-            for (int i = 0; i < n; i++)
-            {
-                if (A[i]< 100 && isPrime(A[i])==true)
-                {
-                    count++;
-                }
-            }
-            Console.WriteLine("There are {0} primes less than 100 in the array",count);
-            
-        }
-        
-        /// <summary>
-        ///Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
-        /// </summary>
-        public bool Exercise124(int[] arr)
-        {
-            bool result = false;
-            foreach (int i in arr)
-            {
-                if (i < 2004 || i %2  == 0)
-                {
-                    return result = true;
-                }
-            }
-
-            return result;
-        }
-
-
-        /// <summary>
-        ///Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
-        /// </summary>
-        public int Exercise125(int[] arr)
-        {
-            int result = 0;
-
-
-            return result;
-        }
-
-        /// <summary>
-        /// Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều các số thực
-        /// Bài 127: Viết hàm sắp xếp mảng 1 chiều các số thực tăng dần
-        /// </summary>
-        public void Exercise126_127()
-        {
-            int min = -100, max = 100;
-            Console.Write(" Enter the number N : ");
-            string ip = Console.ReadLine();
-            int n = testInputINT(ip);
-            double[] A = khoiTaoMangRandomDOUBLE(n, min, max);
-            double sum = 0;
-            int i = 0;
-
-            while (i < n)
-            {
-                if (A[i] < 0)
-                {
-                sum = sum + A[i];
-                }
-                i++;
-            }
-            Console.WriteLine(" sum of array : {0} ", sum);
-            A = sapxep(A, n);
-            Console.Write(" array then sort is ");
-            i = 0;
-            while (i<n)
-            {
-                Console.Write("A[{0}]  = {1}  ;",i,A[i]);
-                i++;
-            }
-        }
-
-        /// <summary>
-        /// Bài 128 + 130: Viết hàm nhập, xuất mảng 1 chiều các số thực
-        ///Bài 129 + 131: Viết hàm nhập, xuất mảng 1 chiều các số nguyên
-        ///Bài 132: Viết hàm liệt kê các giá trị chẵn trong mảng 1 chiều các số nguyên
-        ///Bài 133: Viết hàm liệt kê các vị trí mà giá trị tại đó là giá trị âm trong mảng 1 chiều các số nguyen
-        /// </summary>
-        public void Exercise132_133()
-        {
-            Console.WriteLine("Enter The number N : ");
-            String ip = Console.ReadLine();
-            int n = testInputINT(ip);
-            int[] A = khoiTaoMangRandom(n, -50, 100);
-            Console.Write("The even value in the array are : ");
-            for (int i = 0; i < n; i++)
-            {
-                if (A[i] % 2 == 0)
-                {
-                    Console.Write(" A[{0}] = {1} ", i, A[i]);
-                }
-                i++;
-            }
-
-            Console.Write("\n\n The negative value in the array are : ");
-            for (int i = 0; i < n; i++)
-            {
-                if (A[i] < 0)
-                {
-                    Console.Write(" A[{0}] = {1} ", i, A[i]);
-                }
-            }
-        }
-        #region  các bài tập tư duy
-        public void Exercise()
-        {
-
-        }
-
-        #endregion
-
         #region
         public void VeMaTran()
         {
@@ -870,7 +658,7 @@ namespace CShapeTutoriol
             Console.Write(" hay chon bai toan va ma tran ma ban muon : ");
             var baitoan1 = Console.ReadLine();
             int baitoan = int.Parse(baitoan1);
-           
+
             //if (baitoan.Equals("1"))
             //{
             //    cls.VeMaTran();
@@ -898,7 +686,7 @@ namespace CShapeTutoriol
                     VeMaTran();
                     break;
                 case 2:
-                   sosanhmatran2();
+                    sosanhmatran2();
                     break;
                 case 3:
                     NhanHaiMatran();
@@ -909,8 +697,166 @@ namespace CShapeTutoriol
             Console.ReadKey();
         }
         #endregion
+
+
+        #region Exercise
+
+        // Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
+        public int Exercise122(int[] arr)
+        {
+            int result;
+            if (arr.Length == 0)
+            {
+                result = -1;
+            }
+            result = arr[0];
+            int length = arr.Length;
+            for (int i = 0; i < length; i++)
+            {
+                if (result < arr[i])
+                {
+                    result =  arr[i];
+                }
+            }
+           
+            return result;
+
+        }
+
+        // Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
+        public int Exercise123(int[] arr)
+        {
+            int result;  
+            if (arr.Length == 0)
+            {
+                result = -1;
+            }
+            result = arr[0];
+            int length = arr.Length;
+            for (int i = 0; i < length; i++)
+            {
+                if (result > arr[i])
+                {
+                    result = i;
+                }
+            }
+
+            return result;
+
+        }
+
+        //Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
+        public bool Exercise124(int[] arr)
+        {
+            bool result = false;
+            foreach (int i in arr)
+            {
+                if (i < 2004 || i %2  == 0)
+                {
+                    return result = true;
+                }
+            }
+
+            return result;
+        }
+
+        //Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
+        public int Exercise125(int[] arr)
+        {
+            int result = 0;
+            foreach (int i in arr)
+            {
+                if (i < 100)
+                {
+                    if (isPrime(i))
+                    {
+                        result++;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        // Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều 
+        public int Exercise126(int[] arr)
+        {
+            int result = 0;
+            foreach (int i in arr)
+            {
+                if (i < 0)
+                {
+                    result += i;
+                }
+            }
+
+            return result;
+        }
+
+        //  Bài 127: Viết hàm sắp xếp mảng 1 chiều các số  tăng dần
+        public int[] Exercise127(int[] arr)
+        {
+            int length = arr.Length;
+            int minValue = arr[0];
+            int minindex = 0, replaceindex = 0;
+            for (int i = 0; i < length; i++)
+            {
+                replaceindex = i;
+                for (int j = i; j < length; j++)
+                {
+                    if(minValue > arr[j])
+                    {
+                        minValue = arr[j];
+                        minindex = j;
+                    }
+                }
+                swap(arr, minindex , replaceindex);
+            }
+            return arr;
+        }
+
+        private void swap(int[] arr, int minindex, int replaceindex)
+        {
+            int temp = arr[minindex];
+            arr[minindex] = arr[replaceindex];
+            arr[replaceindex] = temp;
+
+        }
+
+        #endregion
+
+        /// <summary>
+        /// kiểm tra có phải số nguyên tố hay ko 
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public Boolean isPrime(int n)
+        {
+            
+            if (n <= 2)
+            {
+                return false;
+            }
+
+            int count = 1;
+            for (int j = 3; j < n; j++)
+            {
+                if (n % j == 0)
+                {
+                    count++;
+                }
+            }
+            if(count == 1)
+            {
+                return true;
+            }
+            
+            return false;
+        }
+
+
     }
-    
+
     class OldVersion
     {
 
@@ -965,8 +911,103 @@ namespace CShapeTutoriol
             Console.WriteLine("position of smallest n is : {0} ", position);
         }
 
+        /// <summary>
+        ///Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
+        ///Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
+        /// </summary>
+        public void Exercise124_125()
+        {
+            Console.Write(" Enter the number N : ");
+            string ip = Console.ReadLine();
+            int n = testInputINT(ip);
+            int min = 0, max = 2051;
+            int[] A = khoiTaoMangRandom(n, min, max);
+            for (int i = 0; i < n; i++)
+            {
+                if (A[i] < 2004)
+                {
+                    Console.WriteLine("find number small 2004");
+                    goto next;
+                }
+            }
+            Console.WriteLine("not find number small 2004");
+        next:
+            int count = 0;
+            for (int i = 0; i < n; i++)
+            {
+                if (A[i] < 100 && isPrime(A[i]) == true)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine("There are {0} primes less than 100 in the array", count);
 
+        }
 
+        /// <summary>
+        /// Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều các số thực
+        /// Bài 127: Viết hàm sắp xếp mảng 1 chiều các số thực tăng dần
+        /// </summary>
+        public void Exercise126_127()
+        {
+            int min = -100, max = 100;
+            Console.Write(" Enter the number N : ");
+            string ip = Console.ReadLine();
+            int n = testInputINT(ip);
+            double[] A = khoiTaoMangRandomDOUBLE(n, min, max);
+            double sum = 0;
+            int i = 0;
+
+            while (i < n)
+            {
+                if (A[i] < 0)
+                {
+                    sum = sum + A[i];
+                }
+                i++;
+            }
+            Console.WriteLine(" sum of array : {0} ", sum);
+            A = sapxep(A, n);
+            Console.Write(" array then sort is ");
+            i = 0;
+            while (i < n)
+            {
+                Console.Write("A[{0}]  = {1}  ;", i, A[i]);
+                i++;
+            }
+        }
+
+        /// <summary>
+        /// Bài 128 + 130: Viết hàm nhập, xuất mảng 1 chiều các số thực
+        ///Bài 129 + 131: Viết hàm nhập, xuất mảng 1 chiều các số nguyên
+        ///Bài 132: Viết hàm liệt kê các giá trị chẵn trong mảng 1 chiều các số nguyên
+        ///Bài 133: Viết hàm liệt kê các vị trí mà giá trị tại đó là giá trị âm trong mảng 1 chiều các số nguyen
+        /// </summary>
+        public void Exercise132_133()
+        {
+            Console.WriteLine("Enter The number N : ");
+            String ip = Console.ReadLine();
+            int n = testInputINT(ip);
+            int[] A = khoiTaoMangRandom(n, -50, 100);
+            Console.Write("The even value in the array are : ");
+            for (int i = 0; i < n; i++)
+            {
+                if (A[i] % 2 == 0)
+                {
+                    Console.Write(" A[{0}] = {1} ", i, A[i]);
+                }
+                i++;
+            }
+
+            Console.Write("\n\n The negative value in the array are : ");
+            for (int i = 0; i < n; i++)
+            {
+                if (A[i] < 0)
+                {
+                    Console.Write(" A[{0}] = {1} ", i, A[i]);
+                }
+            }
+        }
         #region hàm hỗ trợ nhập xuất hay kiểm tra cho các bài toán 
         public int testInputINT(string ip)
         {
@@ -1042,7 +1083,7 @@ namespace CShapeTutoriol
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        public Boolean songuyento(int n)
+        public Boolean isPrime(int n)
         {
             int i = 0;
             if (n <= 2)
