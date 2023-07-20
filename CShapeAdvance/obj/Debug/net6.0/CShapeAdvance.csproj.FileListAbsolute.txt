@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\bin\Debug\net6.0\CShapeAdvance.exe
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\bin\Debug\net6.0\CShapeAdvance.deps.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\bin\Debug\net6.0\CShapeAdvance.runtimeconfig.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\bin\Debug\net6.0\CShapeAdvance.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\bin\Debug\net6.0\CShapeAdvance.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.AssemblyInfo.cs
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\refint\CShapeAdvance.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\CShapeAdvance.genruntimeconfig.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\CShapeAdvance\obj\Debug\net6.0\ref\CShapeAdvance.dll

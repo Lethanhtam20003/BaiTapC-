@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CShapeAdvance", "..\CShapeA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CShape_OOP", "..\ObjectOrientedProgremming\CShape_OOP.csproj", "{64556EC4-BDA7-4E3B-88CD-A2BBFA498201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExercise", "..\TestExercise\TestExercise.csproj", "{1C692751-585E-49B1-AF59-D3B354ECE4CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{64556EC4-BDA7-4E3B-88CD-A2BBFA498201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64556EC4-BDA7-4E3B-88CD-A2BBFA498201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64556EC4-BDA7-4E3B-88CD-A2BBFA498201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C692751-585E-49B1-AF59-D3B354ECE4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C692751-585E-49B1-AF59-D3B354ECE4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C692751-585E-49B1-AF59-D3B354ECE4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C692751-585E-49B1-AF59-D3B354ECE4CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{B2C7165E-53F0-43A1-965E-93CBF50A92D6} = {C4B5E1EC-0B60-4C3D-93EF-6130CCA95224}
 		{5CE1BEC4-4BD9-432F-9FF1-5286343E9FE6} = {412C9C26-0564-4411-B616-AF8681A80BEB}
 		{64556EC4-BDA7-4E3B-88CD-A2BBFA498201} = {412C9C26-0564-4411-B616-AF8681A80BEB}
+		{1C692751-585E-49B1-AF59-D3B354ECE4CB} = {7E884B93-9818-4CA8-85B5-095863B85732}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33DE9F4B-9E58-437C-9BF0-2D4336B2E433}

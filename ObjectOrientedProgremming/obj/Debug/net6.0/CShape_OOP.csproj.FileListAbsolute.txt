@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\bin\Debug\net6.0\CShape_OOP.exe
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\bin\Debug\net6.0\CShape_OOP.deps.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\bin\Debug\net6.0\CShape_OOP.runtimeconfig.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\bin\Debug\net6.0\CShape_OOP.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\bin\Debug\net6.0\CShape_OOP.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.AssemblyInfo.cs
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\refint\CShape_OOP.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\CShape_OOP.genruntimeconfig.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\ObjectOrientedProgremming\obj\Debug\net6.0\ref\CShape_OOP.dll

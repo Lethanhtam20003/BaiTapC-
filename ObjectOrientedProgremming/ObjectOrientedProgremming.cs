@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObjectOrientedProgremming
+namespace CShapeTutoriol
 {
         //lập trình hướng đối tượng
     internal class ObjectOrientedProgremming
@@ -375,6 +375,7 @@ namespace ObjectOrientedProgremming
                 #endregion
             }
 
+            
 
         
 

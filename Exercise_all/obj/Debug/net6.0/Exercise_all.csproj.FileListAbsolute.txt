@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\bin\Debug\net6.0\Exercise_all.exe
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\bin\Debug\net6.0\Exercise_all.deps.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\bin\Debug\net6.0\Exercise_all.runtimeconfig.json
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\bin\Debug\net6.0\Exercise_all.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\bin\Debug\net6.0\Exercise_all.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.AssemblyInfo.cs
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\refint\Exercise_all.dll
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.pdb
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\Exercise_all.genruntimeconfig.cache
+C:\Users\ADMIN\Source\Repos\Lethanhtam20003\BaiTapC-\Exercise_all\obj\Debug\net6.0\ref\Exercise_all.dll

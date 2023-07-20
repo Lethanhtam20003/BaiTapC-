@@ -5,145 +5,72 @@ using System.Threading.Tasks;
 using System.Text;
 
 namespace CShapeTutoriol
+
 {
     public class MatrixProgram
     {
-        #region hàm hỗ trợ nhập xuất hay kiểm tra cho các bài toán 
-        public int testInputINT(string ip)
-        {
-            TestAgain:
-            int op;
-            if (int.TryParse(ip, out op) == false)
-            {
-                Console.WriteLine("Enter wrong input !");
-                goto nhaplai;
-            }
-            else
-            {
-                op = int.Parse(ip);
-            }
-            return op;
-        nhaplai:
-            Console.Write("Enter input Again : ");
-            ip = Console.ReadLine();
-            goto TestAgain;
-        }
-
-        public double testInputDouble(string ip)
-        {
-        TestAgain:
-            double op;
-            if (double.TryParse(ip, out op) == false)
-            {
-                Console.WriteLine("Enter wrong input !");
-                goto nhaplai;
-            }
-            else
-            {
-                op = double.Parse(ip);
-            }
-            return op;
-        nhaplai:
-            Console.Write("Enter input Again : ");
-            ip = Console.ReadLine();
-            goto TestAgain;
-        }
-
-        public int[] khoiTaoMangRandom(int n,int min, int max)
-        {
-            int i = 0;
-            int[] A = new int[n];
-            Random value = new Random();
-
-            while (i < n)
-            {
-                A[i] = value.Next(min,max);
-                Console.WriteLine(" A[{0}] = {1}:", i, A[i]);
-                i++;
-            }
-            return A;
-        }
-
-        public double[] khoiTaoMangRandomDOUBLE(int n, int min, int max)
-        {
-            int i = 0;
-            double[] A = new double[n];
-            Random value = new Random();
-
-            while (i < n)
-            {
-                A[i] = value.Next(min, max);
-                Console.WriteLine(" A[{0}] = {1}:", i, A[i]);
-                i++;
-            }
-            return A;
-        }
        
        
         
-        /// <summary>
-        /// sắp xếp mãng theo thứ tự từ thấp đến cao .
-        /// </summary>
-        /// <param name="A"></param>
-        /// <param name="n"></param>
-        /// <returns></returns>
-        public double [] sapxep(double [] A,int n)
+        /*
+         * 
+         * 
+         * 
+         */
+
+        public bool compare_two_Maxtrix(int[,] maxtrix_1, int[,] maxtrix_2)
         {
-            double buffer = 0;
-            int i = 0;
-            for (int f = i + 1; f < n; f++)
+            bool result = false;
+
+            int row1 = maxtrix_1.GetLength(0); // lấy độ dài hàng : GetLength(0)
+            int col1 = maxtrix_1.GetLength(1); // lấy độ dài cột : GetLength(1)
+
+            int row2 = maxtrix_2.GetLength(0);
+            int col2 = maxtrix_2.GetLength(1);
+
+            int i = 0, j = 0;
+            if ((col1 != col2) || (col1 != col2))
             {
-                if (A[i] > A[f])
+                return false;
+            }
+            else
+            {
+                while (i < col1)
                 {
-                    buffer = A[i];
-                    A[i] = A[f];
-                    A[f] = buffer;
+                    j = 0;
+                    while (j < row1)
+                    {
+                        if (maxtrix_1[i, j] != maxtrix_2[i, j])
+                        {
+                            j++;
+                        }
+                        i++;
+                    }
                 }
             }
-            return A;
+            return result;
+
         }
+
+
         
-        /// <summary>
-        ///  khởi tạo mảng aray intialization cho kiểu dữ liệu int 
-        /// </summary>
-        /// <returns></returns>
-        public int [] arrayInitializationInt(int n)
-        {
-            int[] A = new int[n];
-            int i = 0;
-            while (i<n)
-            {
-                Console.Write("              A[{0}] =  ", i);
-                string ip = Console.ReadLine();
-                A[i] = testInputINT(ip);
-                Console.WriteLine();
-            }
-            return A;
-        }
+        
+
+        
+
+
        
-        /// <summary>
-        /// array initialization khởi tạo dữ liệu cho kiểu double
-        /// </summary>
-        /// <param name="n"></param>
-        /// <returns></returns>
-        public double[] arrayInitializationDouble(int n)
-        {
-            double[] A = new double[n];
-            int i = 0;
-            while (i < n)
-            {
-                Console.Write("              A[{0}] =  ", i);
-                string ip = Console.ReadLine();
-                A[i] = testInputDouble(ip);
-                Console.WriteLine();
-            }
-            return A;
-        }
-       
-        #endregion
+
+
+    }
+
+    class OldVersion
+    {
+
+
 
         #region bài toán về ma trận
-      
+
         /// <summary>
         /// khoi tao ma tran bat ky
         /// </summary>
@@ -152,41 +79,41 @@ namespace CShapeTutoriol
         /// <returns></returns>
         public int[,] KhoiTaoMaxtrix(int m, int n)
         {
-            int[,] maxtrix = new int[m,n];
+            int[,] maxtrix = new int[m, n];
             int i = 0, j = 0;// i,n vị trí tương ứng với hàng , j,m tương ứng với cột
-            
-                while (i < m)
+
+            while (i < m)
+            {
+                j = 0;
+                while (j < n)
                 {
-                    j = 0;
-                    while (j < n)
+                nhaplaiphantu:
+                    Console.Write("                      a[{0},{1}] =", i, j);
+                    int a = 0;
+                    String nhapmang;
+                    // ép kiểu sang dạng số đẻ sau này tính toán 
+                    nhapmang = Console.ReadLine();
+
+                    if (int.TryParse(nhapmang, out a) == false)
                     {
-                    nhaplaiphantu:
-                        Console.Write("                      a[{0},{1}] =", i, j);
-                        int a=0;
-                        String nhapmang;
-                        // ép kiểu sang dạng số đẻ sau này tính toán 
-                         nhapmang = Console.ReadLine();
-                        
-                        if (int.TryParse(nhapmang,out a) == false)
-                        {
-                            goto nhaplaiphantu;
-                        }
-                        else
-                        { 
-                            maxtrix[i, j] = a;
-                            j++;
-                            Console.WriteLine();
-                        }
+                        goto nhaplaiphantu;
                     }
-                    i++;
+                    else
+                    {
+                        maxtrix[i, j] = a;
+                        j++;
+                        Console.WriteLine();
+                    }
                 }
-            
+                i++;
+            }
+
             return maxtrix;
         }
 
         public void inmaxtrix(int[,] A)
         {
-            
+
             int i = 0, j = 0;
             int n = A.GetLength(1);// Lấy chiều ngang ( từ trái qua phải) so cot
             int m = A.GetLength(0);// lấy triều dọc ( từ trên xuông ) so dong 
@@ -209,30 +136,30 @@ namespace CShapeTutoriol
 
             int[,] A = null;// khởi tạo mạng 
             int[,] B = null;
-        string nhapn, nhapm;
-    nhaplai:
-        Console.Write(" moi ban nhap so dong :");
-        nhapm = Console.ReadLine();
-        Console.Write(" \n moi ban nhap so cot :");
-        nhapn = Console.ReadLine();
-        if ((int.TryParse(nhapm, out m) == false) && (int.TryParse(nhapn, out n) == false)&& (m!=0)&&(n!=0))// phép thử input
-        {
-            Console.WriteLine("ban nhap sai du lieu !");
-            goto nhaplai;
-        }
-        else
-        {
-            n = int.Parse(nhapn);
-            m = int.Parse(nhapm);
-            A = KhoiTaoMaxtrix(n, m);
-            Console.WriteLine("ma tran ");
-            inmaxtrix(A);
+            string nhapn, nhapm;
+        nhaplai:
+            Console.Write(" moi ban nhap so dong :");
+            nhapm = Console.ReadLine();
+            Console.Write(" \n moi ban nhap so cot :");
+            nhapn = Console.ReadLine();
+            if ((int.TryParse(nhapm, out m) == false) && (int.TryParse(nhapn, out n) == false) && (m != 0) && (n != 0))// phép thử input
+            {
+                Console.WriteLine("ban nhap sai du lieu !");
+                goto nhaplai;
+            }
+            else
+            {
+                n = int.Parse(nhapn);
+                m = int.Parse(nhapm);
+                A = KhoiTaoMaxtrix(n, m);
+                Console.WriteLine("ma tran ");
+                inmaxtrix(A);
+
+            }
 
         }
 
-        }
 
-        
         /// <summary>
         /// so sanh hai ma tran
         /// </summary>
@@ -246,7 +173,7 @@ namespace CShapeTutoriol
             int m1 = A.GetLength(1);
 
             int i = 0, j = 0;
-            if ((n!=n1) || (m!=m1))
+            if ((n != n1) || (m != m1))
             {
                 goto thoatvonglapWhile;
             }
@@ -282,8 +209,8 @@ namespace CShapeTutoriol
         public void sosanhmatran()
         {
         nhaplai:
-            string nhapn,nhapm;
-            int n,m;
+            string nhapn, nhapm;
+            int n, m;
             Console.Write("hay nhap cot ma tran:");
             nhapn = Console.ReadLine();
             Console.Write("hay nhap hang ma tran:");
@@ -292,7 +219,7 @@ namespace CShapeTutoriol
             int[,] B = null;
 
             Console.WriteLine("");
-            if ( (int.TryParse(nhapn, out n) == false) && (int.TryParse(nhapm, out m) == false) )
+            if ((int.TryParse(nhapn, out n) == false) && (int.TryParse(nhapm, out m) == false))
             {
                 Console.WriteLine("Ban nhap sai du lieu !");
                 goto nhaplai;
@@ -302,7 +229,7 @@ namespace CShapeTutoriol
                 m = int.Parse(nhapm);
                 n = int.Parse(nhapn);
                 Console.WriteLine(" ma tran thu 1");
-                A = KhoiTaoMaxtrix(n,m);
+                A = KhoiTaoMaxtrix(n, m);
                 Console.WriteLine("ma tran 1");
                 inmaxtrix(A);
 
@@ -322,7 +249,7 @@ namespace CShapeTutoriol
         /// <param name="A"></param>
         /// <param name="B"></param>
         /// <returns></returns>
-        public int[,] nhanhaimatrix(int[,] A,int[,] B)
+        public int[,] nhanhaimatrix(int[,] A, int[,] B)
         {
             int n = A.GetLength(0);
             int m = A.GetLength(1);
@@ -332,7 +259,7 @@ namespace CShapeTutoriol
             int i = 0, j = 0;
 
             int[,] maxtrix = new int[m1, n];
-            int[,] C = new int[m,n1];
+            int[,] C = new int[m, n1];
             while (i < m1)
             {
                 j = 0;
@@ -341,7 +268,7 @@ namespace CShapeTutoriol
                     int i1 = 0;
                     // vong lap
                     while (i1 < m1)
-                    {       
+                    {
                         C[i, j] = A[i, i1] * B[i1, j];
                         maxtrix[i, j] = maxtrix[i, j] + C[i, j];
                         i1++;
@@ -350,15 +277,15 @@ namespace CShapeTutoriol
                 }
                 i++;
             }
-            
+
             return maxtrix;
         }
 
         public void nhanhaimatran()
         {
         nhaplai:
-            string nhapn,nhapm, nhapn1, nhapm1;
-            int n,m,n1,m1;
+            string nhapn, nhapm, nhapn1, nhapm1;
+            int n, m, n1, m1;
             int[,] A = null;
             int[,] B = null;
             int[,] c = null;
@@ -377,7 +304,7 @@ namespace CShapeTutoriol
 
 
             Console.WriteLine("");
-            if ((int.TryParse(nhapn, out n) == false)||(int.TryParse(nhapm,out m)==false)||
+            if ((int.TryParse(nhapn, out n) == false) || (int.TryParse(nhapm, out m) == false) ||
                 (int.TryParse(nhapn1, out n1) == false) || (int.TryParse(nhapm1, out m1) == false))
             {
                 Console.WriteLine("Ban nhap sai du lieu !");
@@ -386,13 +313,13 @@ namespace CShapeTutoriol
             else //phần code chinh của bài
             {
                 // tao ma tran A
-                A = KhoiTaoMaxtrix(m,n);
+                A = KhoiTaoMaxtrix(m, n);
                 Console.WriteLine("ma tran 1");
                 inmaxtrix(A);
 
                 Console.WriteLine();
                 // Khoi tao matrix B
-                B = KhoiTaoMaxtrix(m1,n1);
+                B = KhoiTaoMaxtrix(m1, n1);
                 Console.WriteLine("ma tran 2");
                 inmaxtrix(B);
 
@@ -414,12 +341,12 @@ namespace CShapeTutoriol
                     maxtrix = nhanhaimatrix(A, B);
                     Console.WriteLine("ma tran ket qua");
                     inmaxtrix(maxtrix);
-                }  
+                }
             }
         }
         #endregion
 
-        #region
+        #region ma
         public void VeMaTran()
         {
         nhaplai:
@@ -698,168 +625,6 @@ namespace CShapeTutoriol
         }
         #endregion
 
-
-        #region Exercise
-
-        // Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
-        public int Exercise122(int[] arr)
-        {
-            int result;
-            if (arr.Length == 0)
-            {
-                result = -1;
-            }
-            result = arr[0];
-            int length = arr.Length;
-            for (int i = 0; i < length; i++)
-            {
-                if (result < arr[i])
-                {
-                    result =  arr[i];
-                }
-            }
-           
-            return result;
-
-        }
-
-        // Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
-        public int Exercise123(int[] arr)
-        {
-            int result;  
-            if (arr.Length == 0)
-            {
-                result = -1;
-            }
-            result = arr[0];
-            int length = arr.Length;
-            for (int i = 0; i < length; i++)
-            {
-                if (result > arr[i])
-                {
-                    result = i;
-                }
-            }
-
-            return result;
-
-        }
-
-        //Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
-        public bool Exercise124(int[] arr)
-        {
-            bool result = false;
-            foreach (int i in arr)
-            {
-                if (i < 2004 || i %2  == 0)
-                {
-                    return result = true;
-                }
-            }
-
-            return result;
-        }
-
-        //Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
-        public int Exercise125(int[] arr)
-        {
-            int result = 0;
-            foreach (int i in arr)
-            {
-                if (i < 100)
-                {
-                    if (isPrime(i))
-                    {
-                        result++;
-                    }
-                }
-            }
-
-            return result;
-        }
-
-        // Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều 
-        public int Exercise126(int[] arr)
-        {
-            int result = 0;
-            foreach (int i in arr)
-            {
-                if (i < 0)
-                {
-                    result += i;
-                }
-            }
-
-            return result;
-        }
-
-        //  Bài 127: Viết hàm sắp xếp mảng 1 chiều các số  tăng dần
-        public int[] Exercise127(int[] arr)
-        {
-            int length = arr.Length;
-            int minValue = arr[0];
-            int minindex = 0, replaceindex = 0;
-            for (int i = 0; i < length; i++)
-            {
-                replaceindex = i;
-                for (int j = i; j < length; j++)
-                {
-                    if(minValue > arr[j])
-                    {
-                        minValue = arr[j];
-                        minindex = j;
-                    }
-                }
-                swap(arr, minindex , replaceindex);
-            }
-            return arr;
-        }
-
-        private void swap(int[] arr, int minindex, int replaceindex)
-        {
-            int temp = arr[minindex];
-            arr[minindex] = arr[replaceindex];
-            arr[replaceindex] = temp;
-
-        }
-
-        #endregion
-
-        /// <summary>
-        /// kiểm tra có phải số nguyên tố hay ko 
-        /// </summary>
-        /// <param name="n"></param>
-        /// <returns></returns>
-        public Boolean isPrime(int n)
-        {
-            
-            if (n <= 2)
-            {
-                return false;
-            }
-
-            int count = 1;
-            for (int j = 3; j < n; j++)
-            {
-                if (n % j == 0)
-                {
-                    count++;
-                }
-            }
-            if(count == 1)
-            {
-                return true;
-            }
-            
-            return false;
-        }
-
-
-    }
-
-    class OldVersion
-    {
-
         /// <summary>
         /// Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
         /// input n Double
@@ -1008,6 +773,8 @@ namespace CShapeTutoriol
                 }
             }
         }
+
+
         #region hàm hỗ trợ nhập xuất hay kiểm tra cho các bài toán 
         public int testInputINT(string ip)
         {
